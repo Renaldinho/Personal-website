@@ -17,6 +17,7 @@ h1{
 h2{
   color: #66BFBF;
   font-weight: normal;
+  font-size: 2.5rem;
 }
 
 h3{
@@ -25,13 +26,11 @@ h3{
 
 h2,
 h3{
-  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 a{
   color: #11999E;
-  padding: 20px;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
 }
@@ -41,9 +40,13 @@ a:hover{
 }
 
 p{
-  margin-bottom: 0;
-  padding-bottom: 16px;
   color: #40514E;
+}
+
+.self-desc{
+  margin:0 auto 0;
+  padding-bottom: 16px;
+  width: 40%;
 }
 
 .top-container{
@@ -58,7 +61,7 @@ p{
 }
 
 .bottom-container{
-  padding: 10px 0px 10px;
+  padding: 10px 0 10px;
   background-color: #66BFBF;
 }
 
@@ -109,6 +112,7 @@ p{
   margin: 100px auto;
   text-align: left;
   line-height: 2;
+  padding-bottom: 10px;
 }
 
 hr{
@@ -148,4 +152,8 @@ hr{
 .contact-button:active {
   position:relative;
   top:1px;
+}
+
+.footer-link{
+  padding: 20px;
 }
