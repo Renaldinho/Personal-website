@@ -7,25 +7,49 @@ body{
 }
 
 h1{
-  margin: auto;
-  width: 200px;
+  margin: 0 auto 0 auto;
+  font-size: 562.5%;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  color:#11999E;
 }
 
 h2,
 h3{
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: #11999E;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 p{
   margin-bottom: 0;
   padding-bottom: 16px;
+  color: #40514E;
 }
 
 .top-container{
   padding:50px;
   position: relative;
-  background: #76BA99;
+  background: #EAF6F6;
 }
 
 .middle-container{
@@ -34,11 +58,13 @@ p{
 }
 
 .bottom-container{
+  padding: 10px 0px 10px;
+  background-color: #66BFBF;
 }
 
 .bottom-cloud,
 .top-cloud{
-  width: 170px;
+  width: 150px;
 }
 
 .mountain{
@@ -48,13 +74,14 @@ p{
 
 .bottom-cloud{
   position: absolute;
-  top:150px;
+  top:300px;
+  left: 350px;
 }
 
 .top-cloud{
   position: absolute;
   top:20px;
-  right: 500px;
+  right: 350px;
 }
 
 .profile-pic{
@@ -66,14 +93,59 @@ p{
 }
 
 .skill-icon-web{
-  width: 100px;
-  position: absolute;
+  width: 25%;
+  float: left;
+  margin-right: 10px;
 }
 
 .skill-icon{
-  width: 100px;
+  width: 25%;
+  float: right;
+  margin-left: 10px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 hr{
-  width: 500px;
+  width: 10%;
+  border-style: none;
+  border-top: 10px dotted #EAF6F6;
+}
+
+.credit-name{
+  color: #EAF6F6;
+}
+
+.contact-me{
+  padding-bottom: 30px;
+
+}
+
+.contact-button {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color:#599bb3;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #3d768a;
+}
+.contact-button:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color:#408c99;
+}
+.contact-button:active {
+  position:relative;
+  top:1px;
 }
